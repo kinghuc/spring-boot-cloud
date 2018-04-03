@@ -21,12 +21,12 @@ zuul:
   ignoredServices: '*'
   routes:
     auth-service:
-      path: /uaa/**
+      path: /OAuth2/**
       stripPrefix: false
       sensitiveHeaders:
     usercenter:
-      path: /svca/**
+      path: /gateway/user/**
       sensitiveHeaders:
     walletcenter:
-      path: /svcb/**
+      path: /gateway/wallet/**
       sensitiveHeaders:
