@@ -24,9 +24,9 @@ zuul:
       path: /uaa/**
       stripPrefix: false
       sensitiveHeaders:
-    svca-service:
+    usercenter:
       path: /svca/**
       sensitiveHeaders:
-    svcb-service:
+    walletcenter:
       path: /svcb/**
       sensitiveHeaders:
