@@ -22,11 +22,13 @@ zuul:
   routes:
     auth-service:
       path: /uua/**
-      stripPrefix: false
-      sensitiveHeaders:
+      service-id: auth-service
+      sensitive-headers:
     usercenter:
       path: /gateway/user/**
-      sensitiveHeaders:
+      service-id: usercenter
+      sensitive-headers:
     walletcenter:
       path: /gateway/wallet/**
-      sensitiveHeaders:
+      service-id: walletcenter
+      sensitive-headers:
