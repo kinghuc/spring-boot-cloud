@@ -21,7 +21,7 @@ zuul:
   ignoredServices: '*'
   routes:
     auth-service:
-      path: /uua/**
+      path: /OAuth2/**
       service-id: auth-service
       sensitive-headers:
     usercenter:
