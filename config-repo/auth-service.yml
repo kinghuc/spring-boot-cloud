@@ -1,5 +1,5 @@
 server:
-  context-path: /uaa
+  context-path: /OAuth2
   port: 5000
 
 management:
