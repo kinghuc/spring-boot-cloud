@@ -34,7 +34,7 @@ authserver:
     port: 5000
     contextPath: /OAuth2
 
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current
+#security:
+#  oauth2:
+#    resource:
+#      user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current
