@@ -28,7 +28,7 @@ zuul:
       path: /gateway/user/**
       service-id: usercenter
       sensitive-headers:
-    walletcenter:
+    bechatwallet:
       path: /gateway/wallet/**
       service-id: bechatwallet
       sensitive-headers:
